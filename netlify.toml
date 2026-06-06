@@ -1,4 +1,6 @@
+Ini, TOML
 [build]
+  base = "Job-Mix-Blend-Optimizer"
   command = "npm install --legacy-peer-deps && npm run build"
   publish = "dist"
 
